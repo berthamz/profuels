@@ -1,0 +1,146 @@
+.home-b01 {
+	background: url('../images/home-bloque01.jpg') right center no-repeat;
+	background-size: cover;
+
+	.wrapper {
+		max-width: 1200px;
+		padding-top: 67vh;
+		text-align: center;
+		letter-spacing: 2px;
+		min-height: initial;
+
+		@include breakpoint(desktop) {
+			text-align: left;
+			padding-top: 330px;
+		}
+	}
+}
+
+.home-b02 {
+	overflow: auto;
+	font-size: $txt-m;
+	border-bottom: 65px solid $blue;
+
+	div {
+		height: 250px;
+		text-align: center;
+		padding-top: 120px;
+
+		@include breakpoint(desktop) {
+			width: 50%;
+			float: left;
+		}
+	}
+
+	.arco {
+		background: url('../images/home-bloque02a.jpg') center;
+		background-size: cover;
+
+		img {
+			width: 290px;
+		}
+	}
+
+	.andeavor {
+		background: url('../images/home-bloque02b.jpg') center;
+		background-size: cover;
+
+		img {
+			width: 330px;
+			margin-bottom: 20px;
+		}
+	}
+}
+
+.home-b03 {
+	display: block;
+	background: url('../images/home-bloque03.jpg') center;
+	background-size: cover;
+	color: $white;
+
+	.wrapper {
+		position: relative;
+	}
+
+	.somos {
+		right: 0;
+		bottom: 10px;
+		max-width: 600px;
+		text-align: center;
+		position: absolute;
+		letter-spacing: 2px;
+		font-family: $heading;
+
+		@include breakpoint(desktop) {
+			bottom: 110px;
+		}
+	}
+
+	h2 {
+		margin-top: 5px;
+
+		@include breakpoint(desktop) {
+			margin-top: 10px;			
+		}
+	}
+}
+
+.home-b04 {
+	min-height: 280px;
+	padding-top: 30px;
+
+	@include breakpoint(desktop) {
+		display: flex;
+		justify-content: space-between;
+		padding-top: 110px;
+	}
+
+	.third {
+		overflow: auto;
+		min-height: 130px;
+		position: relative;
+		margin-bottom: 30px;
+
+		@include breakpoint(desktop) {
+			width: 32%;
+			max-width: 430px;
+		}
+	}
+
+	img {
+		max-width: 37%;
+		position: absolute;
+	}
+
+	.third-txt {
+		float: right;
+		min-width: 62%;
+		text-align: right;
+		width: calc(100% - 125px);
+	}
+
+	h2 {
+		position: relative;
+		letter-spacing: -0.5pt;
+
+		&:after {
+			content: '';
+			display: block;
+			width: 105%;
+			height: 5px;
+			right: 0;
+			bottom: -10px;
+			background: $blue;
+			position: absolute;
+		}
+	}
+
+	p {
+		max-width: 85%;
+		float: right;
+	}
+}
+
+
+
+

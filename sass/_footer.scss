@@ -1,0 +1,90 @@
+footer {
+	color: $white;
+	padding: 20px 0 15px;
+	background: $grey;
+	text-align: center;
+
+	@include breakpoint(desktop) {
+		text-align: left;
+		overflow: auto;
+		padding: 25px 0;
+	}
+
+	.wrapper {
+		min-height: auto;
+
+		@include breakpoint(desktop) {
+			width: 800px;
+		}
+	}
+
+	.copyright {
+		font-size: 10px;
+		letter-spacing: 1px;
+	}
+}
+
+.logo-footer {
+	margin: 0 auto;
+
+	@include breakpoint(desktop) {
+		float: left;
+		width: 150px;
+		height: 100px;
+		padding-top: 60px;
+		padding-right: 45px;
+		margin-right: 45px;
+		border-right: 1px solid $white;
+	}
+
+	img {
+		width: 150px;
+	}
+}
+
+.menu-footer {
+	margin: 0;
+	padding: 15px 0 0;
+
+	li {
+		list-style: none;
+		padding-right: 20px;
+		display: inline-block;
+		letter-spacing: 0.5pt;
+	}
+
+	a {
+		color: $white;
+	}
+}
+
+.menu-social {
+	height: 25px;
+	margin: 30px 0;
+
+	a {
+		width: 25px;
+		height: 25px;
+		overflow: hidden;
+		text-indent: 50px;
+		margin-right: 10px;
+		display: inline-block;
+		background-size: contain;
+		background-position: center;
+		background-repeat: no-repeat;
+
+		&:hover {
+			opacity: .7;
+		}
+	}
+
+	.fb {
+		background-image: url('../images/social-fb.png');
+	}
+	.tw {
+		background-image: url('../images/social-tw.png');
+	}
+	.in {
+		background-image: url('../images/social-in.png');
+	}
+}

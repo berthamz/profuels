@@ -14,12 +14,12 @@ footer {
 		min-height: auto;
 
 		@include breakpoint(desktop) {
-			width: 800px;
+			width: 900px;
 		}
 	}
 
 	.copyright {
-		font-size: 10px;
+		font-size: 12px;
 		letter-spacing: 1px;
 	}
 }
@@ -51,10 +51,19 @@ footer {
 		padding-right: 20px;
 		display: inline-block;
 		letter-spacing: 0.5pt;
+
+		@include breakpoint(desktop) {
+			padding-right: 35px;
+		}
 	}
 
 	a {
 		color: $white;
+		transition: color 0.2s linear;
+
+		&:hover {
+			color: $blue;
+		}
 	}
 }
 
@@ -72,9 +81,10 @@ footer {
 		background-size: contain;
 		background-position: center;
 		background-repeat: no-repeat;
+		transition: opacity 0.2s linear;
 
 		&:hover {
-			opacity: .7;
+			opacity: .4;
 		}
 	}
 

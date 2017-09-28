@@ -11,9 +11,9 @@
 				<li><a href="contacto.php">Contacto</a></li>
 			</ul>
 			<div class="menu-social">
-				<a href="#" class="fb">Facebook</a>
-				<a href="#" class="tw">Twitter</a>
-				<a href="#" class="in">Linkedin</a>
+				<a href="https://www.facebook.com/ProFuels/" target="_blank" class="fb">Facebook</a>
+				<a href="https://twitter.com/ProFuels" target="_blank" class="tw">Twitter</a>
+				<a href="https://www.linkedin.com/company/25028814/" target="_blank" class="in">Linkedin</a>
 			</div>
 			<div class="copyright">
 				© Profuels 2017

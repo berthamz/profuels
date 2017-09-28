@@ -2,7 +2,7 @@
 <?php include 'header.php';?>
 
 <div class="home-b01 fullscreen">
-	<div class="wrapper">
+	<div class="wrapper w-home">
 		<h1>LLEGA MÁS LEJOS</h1>
 	</div>		
 </div>
@@ -19,36 +19,36 @@
 </div>
 
 <a href="#" class="home-b03">
-	<div class="wrapper">
+	<div class="wrapper w-home">
 		<div class="somos">
 			<h1>¿QUIÉNES SOMOS?</h1>
-			<h2 class="conoce">Conoce más &rarr;</h2>
+			<h3 class="conoce">Conoce más &rarr;</h3>
 		</div>
 	</div>
 </a>
 
 <div class="home-b04 wrapper">
-	<div class="third">
+	<a href="almacenaje.php" class="third">
 		<img src="images/home-bloque04-almacenaje.jpg" alt="Imagen de Almacenaje">
 		<div class="third-txt">
-			<h2>ALMACENAJE</h2>
+			<h3>ALMACENAJE</h3>
 			<p>Tenemos instalaciones disponibles en diferentes puntos de Baja California y Sonora para almacenar nuestro combustible.</p>
 		</div>
-	</div>
-	<div class="third">
+	</a>
+	<a href="distribucion.php" class="third">
 		<img src="images/home-bloque04-distribucion.jpg" alt="Imagen de Distribución">
 		<div class="third-txt">
-			<h2>DISTRIBUCIÓN</h2>
+			<h3>DISTRIBUCIÓN</h3>
 			<p> Flotilla mayor a 90 unidades para satisfacer el mercado.</p>
 		</div>
-	</div>
-	<div class="third">
+	</a>
+	<a href="estaciones.php" class="third">
 		<img src="images/home-bloque04-estaciones.jpg" alt="Imagen de Estaciones de Servicio">
 		<div class="third-txt">
-			<h2>ESTACIONES<br> DE SERVICIO</h2>
+			<h3>ESTACIONES<br> DE SERVICIO</h3>
 			<p>Estaciones marca ARCO®</p>
 		</div>
-	</div>
+	</a>
 </div>
 
 <?php include 'footer.php';?>

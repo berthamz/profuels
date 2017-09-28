@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width" />
 	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
-	<link href="https://fonts.googleapis.com/css?family=Fira+Sans+Condensed:700|Mukta+Malar:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Mukta+Malar:400,700|Open+Sans+Condensed:700" rel="stylesheet">
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>

@@ -12,17 +12,13 @@ body {
 a {
 	color: $grey-txt;
 	text-decoration: none;
-
-	&:hover {
-		text-decoration: underline;
-	}
 }
 
 h1 {
 	margin: 0;
 	color: $white;
 	font-size: 60px;
-	font-weight: 600;
+	font-weight: 700;
 	line-height: 60px;
 	font-family: $heading;
 
@@ -33,9 +29,39 @@ h1 {
 
 h2 {
 	margin: 0;
+	color: $blue;
+	font-size: 50px;
+	font-weight: 700;
+	line-height: 48px;
+	padding: 20px 0;
+	font-family: $heading;
+}
+
+h3 {
+	margin: 0;
+	color: $blue;
 	font-size: $txt-l;
 	line-height: $txt-l;
-	font-weight: 600;
+	font-weight: 700;
+	font-family: $heading;
+}
+
+
+h4 {
+	margin: 10px 0 5px;
+	color: $blue;
+	font-weight: 700;
+	font-family: $heading;
+}
+
+.break {
+	height: 5px;
+	background: $grey;
+	margin: 20px 0;
+}
+
+.black {
+	color: $black;
 }
 
 .fullscreen {
@@ -46,8 +72,13 @@ h2 {
 .wrapper {
 	margin: 0 auto;
 	width: calc(100% - 20px);
-	max-width: 1400px;
-	min-height: calc(100vh - 292px);
+	max-width: 1100px;
+	padding-bottom: 20px;
+
+	&.w-home {
+		min-height: calc(100vh - 292px);
+		padding: 0;	
+	}
 }
 
 .banner {
@@ -94,6 +125,8 @@ h2 {
 			text-align: right;
 			padding-right: 3%;
 			position: absolute;
+			animation-name: banner-txt;
+			animation-duration: 2s;
 		}
 
 		&:after {
@@ -105,7 +138,10 @@ h2 {
 			right: 0;
 
 			@include breakpoint(desktop) {
+				width: 100%;
 				position: absolute;
+				animation-name: banner-bar;
+				animation-duration: 2s;
 			}
 		}
 	}
@@ -117,6 +153,41 @@ h2 {
 			@include breakpoint(desktop) {
 				top: 20%;
 			}
+		}
+	}
+}
+
+.w-inner {
+	min-height: calc(100vh - 501px);
+
+	@include breakpoint(desktop) {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	.center {
+		text-align: center;
+	}
+
+	div {
+		flex-grow: 1;
+		flex-basis: 0;
+	}
+
+	img {
+		max-width: 100%;
+		margin: 10px auto;
+
+		@include breakpoint(desktop) {
+			margin: 50px 0 30px;
+		}
+	}
+
+	.left {
+		@include breakpoint(desktop) {
+			padding-right: 80px;
 		}
 	}
 }

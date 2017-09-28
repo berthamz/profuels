@@ -1,13 +1,11 @@
-@import url(https://fonts.googleapis.com/css?family=Fira+Sans+Condensed:600|Mukta+Malar:400,700);
-
 // VARIABLES //
 
 $font: 'Mukta Malar', sans-serif;
-$heading: 'Fira Sans Condensed', sans-serif;
+$heading: 'Open Sans Condensed', sans-serif;
 
-$txt-r: 15px;
-$txt-m: 19px;
-$txt-l: 28px;
+$txt-r: 16px;
+$txt-m: 20px;
+$txt-l: 30px;
 $txt-xl: 65px;
 
 $black: #000;
@@ -26,4 +24,16 @@ $blue-light: #598db2;
 	@if $point == desktop {
 		@media (min-width: 769px) { @content; }
 	}
+}
+
+// ANIMATIONS //
+
+@keyframes banner-bar {
+    from {width: 80%;}
+    to {width: 100%;}
+}
+
+@keyframes banner-txt {
+    from {color: transparent;}
+    to {color: $white;}
 }

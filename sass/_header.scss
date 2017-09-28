@@ -14,6 +14,7 @@ header {
 	.wrapper {
 		width: 100%;
 		min-height: calc(100% - 10px);
+		max-width: 1400px;
 		margin: 0 auto;
 		overflow: auto;
 		padding-top: 10px;
@@ -68,9 +69,19 @@ header {
 			list-style: none;
 			display: block;
 			text-align: center;
+			border-radius: 5px;
+			margin-top: 0;
+			background-color: transparent;
+			transition: background-color 0.1s linear, margin-top 0.1s linear;
 
 			@include breakpoint(desktop) {
 				display: inline-block;
+				vertical-align: top;
+			}
+
+			&:hover {
+				background-color: $blue-dark;
+				margin-top: 3px;
 			}
 		}
 
@@ -90,7 +101,9 @@ header {
 				text-indent: 60px;
 				margin-bottom: -13px;
 				display: inline-block;
-				background: url('../images/menu-home.png') center no-repeat;
+				background-image: url('../images/menu-home.png');
+				background-position: center;
+				background-repeat: no-repeat;
 				background-size: contain;				
 			}
 		}

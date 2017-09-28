@@ -7,7 +7,11 @@
 	<h1>Distribución</h1>
 </div>
 
-<div class="wrapper">
+<div class="wrapper w-inner distribucion">
+	<div class="center">
+		<h2 class="black">Distribuciones</h2>
+		<p>“Contamos con una flota de reparto de más de 90 unidades que atienden puntualmente a nuestros clientes en la industria minera, marítima, aérea, industrial, agrícola y gasolinera.”</p>
+	</div>
 </div>
 
 <?php include 'footer.php';?>

@@ -14,6 +14,17 @@
 			padding-top: 330px;
 		}
 	}
+
+	h1 {
+		transition: font-size 0.5s ease-in-out, letter-spacing 0.5s ease-in-out;
+	}
+
+	&:hover {
+		h1 {
+			font-size: 70px;
+			letter-spacing: 3px;
+		}
+	}
 }
 
 .home-b02 {
@@ -38,6 +49,14 @@
 
 		img {
 			width: 290px;
+			transition: margin 0.3s ease-in-out, width 0.3s ease-in-out;
+		}
+
+		&:hover {
+			img {
+				width: 300px;
+				margin: -5px auto 1px;
+			}
 		}
 	}
 
@@ -46,8 +65,16 @@
 		background-size: cover;
 
 		img {
-			width: 330px;
-			margin-bottom: 20px;
+			width: 310px;
+			margin: 0 auto 20px;
+			transition: margin 0.3s ease-in-out, width 0.3s ease-in-out;
+		}
+
+		&:hover {
+			img {
+				width: 320px;
+				margin: -5px auto 23px;
+			}
 		}
 	}
 }
@@ -56,7 +83,6 @@
 	display: block;
 	background: url('../images/home-bloque03.jpg') center;
 	background-size: cover;
-	color: $white;
 
 	.wrapper {
 		position: relative;
@@ -69,24 +95,36 @@
 		text-align: center;
 		position: absolute;
 		letter-spacing: 2px;
-		font-family: $heading;
+		transition: right 0.5s ease-in-out;
 
 		@include breakpoint(desktop) {
 			bottom: 110px;
 		}
 	}
 
-	h2 {
+	h3 {
 		margin-top: 5px;
+		color: $white;
+		transition: margin-right 0.5s ease-in-out;
 
 		@include breakpoint(desktop) {
 			margin-top: 10px;			
 		}
 	}
+
+	&:hover {
+		.somos {
+			right: 20px;			
+		}
+
+		h3 {
+			margin-right: -80px;
+		}
+	}		
 }
 
 .home-b04 {
-	min-height: 280px;
+	min-height: 230px;
 	padding-top: 30px;
 
 	@include breakpoint(desktop) {
@@ -96,6 +134,7 @@
 	}
 
 	.third {
+		display: block;
 		overflow: auto;
 		min-height: 130px;
 		position: relative;
@@ -119,9 +158,12 @@
 		width: calc(100% - 125px);
 	}
 
-	h2 {
+	h3 {
 		position: relative;
 		letter-spacing: -0.5pt;
+		font-family: $font;
+		color: $grey-txt;
+		transition: color 0.3s linear;
 
 		&:after {
 			content: '';
@@ -132,12 +174,24 @@
 			bottom: -10px;
 			background: $blue;
 			position: absolute;
+			transition: background 0.3s linear, width 0.3s ease-in-out;
 		}
 	}
 
 	p {
 		max-width: 85%;
 		float: right;
+	}
+
+	.third:hover {
+		h3 {
+			color: $black;
+
+			&:after {
+				width: 115%;
+				background: $blue-light;
+			}
+		}
 	}
 }
 

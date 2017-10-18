@@ -8,14 +8,14 @@
 </div>
 
 <div class="home-b02">
-	<div class="arco">
+	<a href="http://www.arcogasolina.com.mx/" target="_blank" class="arco">
 		<img src="images/arco-logo.png" alt="Logotipo Arco">
 		<p>Comercializador exclusivo de la marca ARCO®</p>
-	</div>
-	<div class="andeavor">
+	</a>
+	<a href="http://www.andeavor.com/" target="_blank" class="andeavor">
 		<img src="images/andeavor-logo.png" alt="Logotipo Andeavor">
 		<p>Comercializador de producto Andeavor®</p>
-	</div>
+	</a>
 </div>
 
 <a href="#" class="home-b03">

@@ -10,7 +10,9 @@
 <div class="wrapper w-inner">
 	<div class="left">
 		<h2>Nuestra <br>Empresa</h2>
-		<p>Profuels comenzó en la industria de combustibles hace más de 25 años. Desde entonces nuestra presencia se ha extendido a 5 estados de la república a lo largo del Pacífico, desde la península de Baja California hasta Jalisco. Ahora contamos con más de 2500 empleados y fuertes alianzas estratégicas que nos permiten seguir creciendo, ofreciendo siempre un buen servicio y producto de calidad.</p>
+		<p>Profuels nace a raíz de la alianza de Grupo Energía Combustible y Andeavor con el fin de brindar una solución integral a las necesidades del sector, producto de la reforma energética mexicana del 2013.</p>
+		<p>Profuels cuenta con el respaldo de más de 25 años de experiencia en la industria de combustibles. Nuestra presencia se extiende a cuatro estados del noroeste de México con una flota de reparto de más de 90 auto tanques y una fuerte red de suministro con más de 180 estaciones de servicio incorporadas a nuestra red, auto abasto en empresas privadas y terminales de almacenamiento propias.</p>
+		<p>Siempre buscando satisfacer las necesidades de nuestros clientes con los más altos estándares de servicio a través de tecnología de punta y productos de calidad.</p>
 	</div>
 	<div>
 		<h3>VISIÓN</h3>

@@ -340,12 +340,14 @@ footer {
   overflow: auto;
   font-size: 20px;
   border-bottom: 65px solid #2e6184; }
-  .home-b02 div {
+  .home-b02 a {
+    display: block;
     height: 250px;
     text-align: center;
-    padding-top: 120px; }
+    padding-top: 120px;
+    text-decoration: none; }
     @media (min-width: 769px) {
-      .home-b02 div {
+      .home-b02 a {
         width: 50%;
         float: left; } }
   .home-b02 .arco {
@@ -391,7 +393,8 @@ footer {
     transition: margin-right 0.5s ease-in-out; }
     @media (min-width: 769px) {
       .home-b03 h3 {
-        margin-top: 10px; } }
+        margin-top: 10px;
+        display: inline-block; } }
   .home-b03:hover .somos {
     right: 20px; }
   .home-b03:hover h3 {

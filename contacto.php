@@ -25,7 +25,7 @@
 
 	<div class="contacto-side">
 		<h4>EMAIL</h4>
-		preguntas@profuels.mx
+		atencionaclientes@profuels.mx
 
 		<div class="break"></div>
 
